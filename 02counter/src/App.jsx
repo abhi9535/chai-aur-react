@@ -12,7 +12,14 @@ function App() {
   
    const addValue=()=>{
       if(counter<20){
-        myCounter(counter+1)
+        // myCounter(counter+1)
+        // myCounter(counter+1)
+        // myCounter(counter+1)
+        myCounter(prevCounter=>prevCounter+1)
+        myCounter(prevCounter=>prevCounter+1)
+        myCounter(prevCounter=>prevCounter+1)
+        myCounter(prevCounter=>prevCounter+1)
+        myCounter(prevCounter=>prevCounter+1)
       }
         
    }
